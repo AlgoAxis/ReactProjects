@@ -15,7 +15,6 @@ A React-based game where you try to stop the timer as close to zero as possible.
 
 ![Countdown Game Screenshot](demo.PNG)
 
-(Add your screenshot as `demo.png` inside this folder)
 
 ---
 
