@@ -13,7 +13,7 @@ A React-based game where you try to stop the timer as close to zero as possible.
 
 ## 📸 Screenshot
 
-![Countdown Game Screenshot](demo.PNG)
+![Countdown Game Screenshot](countDownGame/demo.PNG)
 
 
 ---
