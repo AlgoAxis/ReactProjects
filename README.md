@@ -12,7 +12,7 @@ A fun timer challenge game where you must stop the timer as close to zero as pos
 👉 **Live Demo:** [https://countdowngame.vercel.app](https://react-projects-swart-gamma.vercel.app/)  
 📁 **Project Folder:** `/countDownGame`
 
-![Countdown Game Screenshot](countDownGame/demo.png)
+![Countdown Game Screenshot](countDownGame/demo.PNG)
 
 ---
 
