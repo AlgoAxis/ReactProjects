@@ -11,7 +11,7 @@ export default function TimerChallenge({ title, targetTime }) {
   const timerIsActive = hasStarted && timerRemaining > 0;
 
   useEffect(() => {
-    if (timerRemaining <= 0 && hasStarted) {
+    if (timerRemaining < 0 && hasStarted) {
       clearInterval(timer.current);
       dialog.current.open();     
       setHasStarted(false);      
