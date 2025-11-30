@@ -1,6 +1,6 @@
 import Tasks from "./Tasks";
 
-export default function SelectedProject({project, onDelete}){
+export default function SelectedProject({project, onDelete, onAddTask, onDeleteTask, tasks}){
     if (!project) {
         return <div className="w-[35rem] mt-16">No project selected</div>;
     }
@@ -22,6 +22,6 @@ export default function SelectedProject({project, onDelete}){
             <p className="mb-4 text-stone-400">{formattedDate}</p>
             <p className="text-stone-600 whitespace-pre-wrap">{project.description}</p>
         </header>
-        <Tasks />
+        <Tasks onAdd={onAddTask} onDelete={onDeleteTask} tasks={tasks}/>
     </div>
 }
